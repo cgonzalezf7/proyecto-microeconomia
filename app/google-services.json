@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "681973512628",
+    "firebase_url": "https://proyecto-microeconomia.firebaseio.com",
+    "project_id": "proyecto-microeconomia",
+    "storage_bucket": "proyecto-microeconomia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:681973512628:android:e464c107ab974c82051ae1",
+        "android_client_info": {
+          "package_name": "com.cristiangonzalez.proyectomicroeconomia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "681973512628-b2vf33st5117bs0con9in98gg2gaklrk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cristiangonzalez.proyectomicroeconomia",
+            "certificate_hash": "30ec7cb9d1939d741b76932f2936b8cae9cacc0f"
+          }
+        },
+        {
+          "client_id": "681973512628-mbb2shldabio4bchl3t1t8afs167a7hf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cristiangonzalez.proyectomicroeconomia",
+            "certificate_hash": "2348c9f5e1edb3595a27111b03f50048a2150a15"
+          }
+        },
+        {
+          "client_id": "681973512628-ft5cngr7rs7cdmt9o4q50vc2vp7sppos.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTygoDxH-4D7Pa4KZWSU2eSxO4okprljk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "681973512628-ft5cngr7rs7cdmt9o4q50vc2vp7sppos.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

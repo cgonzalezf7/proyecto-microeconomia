@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    tools:context=".activities.AddWordActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/addWordAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Light"
+        android:background="@color/backgroundColor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:elevation="@dimen/word_app_bar_elevation">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/addWordToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTextWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/word_space_horizontal"
+        android:layout_marginTop="@dimen/word_space_vertical_xxl"
+        android:layout_marginEnd="@dimen/word_space_horizontal"
+        android:padding="@dimen/word_padding"
+        android:background="@null"
+        android:hint="@string/word_word_capital"
+        android:inputType="textCapWords"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/word_text_size_xl"
+        app:layout_constraintTop_toBottomOf="@+id/addWordAppBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editTexDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/word_space_horizontal"
+        android:layout_marginTop="@dimen/word_space_vertical"
+        android:layout_marginEnd="@dimen/word_space_horizontal"
+        android:padding="@dimen/word_padding"
+        android:background="@null"
+        android:hint="@string/word_description_capital"
+        android:inputType="textCapSentences|textMultiLine"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/word_text_size"
+        app:layout_constraintTop_toBottomOf="@+id/editTextWord"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

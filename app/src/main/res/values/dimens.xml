@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Login View -->
+    <dimen name="login_space_vertical">24dp</dimen>
+    <dimen name="login_space_vertical_xl">64dp</dimen>
+    <dimen name="login_space_horizontal">32dp</dimen>
+    <dimen name="login_edit_text_padding">10dp</dimen>
+    <dimen name="login_edit_text_height">50dp</dimen>
+    <dimen name="login_button_height">50dp</dimen>
+    <dimen name="login_button_xl_height">60dp</dimen>
+    <dimen name="login_text_xl_size">30sp</dimen>
+    <dimen name="login_text_size">14sp</dimen>
+    <dimen name="login_logo_size">100dp</dimen>
+    <dimen name="login_app_name_width">250dp</dimen>
+    <dimen name="login_button_radius">3dp</dimen>
+    <dimen name="login_cancel_button_margin">12dp</dimen>
+    <!-- Dictionary View -->
+    <dimen name="dictionary_size">0dp</dimen>
+    <!-- Dictionary Item View -->
+    <dimen name="dictionary_min_height">64dp</dimen>
+    <dimen name="dictionary_padding">16dp</dimen>
+    <dimen name="dictionary_divider_height">1dp</dimen>
+    <dimen name="dictionary_profile_image_size">40dp</dimen>
+    <!-- Progress Bar -->
+    <dimen name="progress_bar_padding">20dp</dimen>
+    <dimen name="progress_bar_margin">10dp</dimen>
+    <dimen name="progress_bar_radius">3dp</dimen>
+    <dimen name="progress_bar_text_size">18sp</dimen>
+    <!-- FAB -->
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Add Word View -->
+    <dimen name="word_space_horizontal">16dp</dimen>
+    <dimen name="word_space_vertical">8dp</dimen>
+    <dimen name="word_space_vertical_xl">16dp</dimen>
+    <dimen name="word_space_vertical_xxl">24dp</dimen>
+    <dimen name="word_space_vertical_xxx">32dp</dimen>
+    <dimen name="word_space_vertical_3xl">64dp</dimen>
+    <dimen name="word_padding">6dp</dimen>
+    <dimen name="word_padding_xl">8dp</dimen>
+    <dimen name="word_text_size">20sp</dimen>
+    <dimen name="word_text_size_xl">28sp</dimen>
+    <dimen name="word_app_bar_elevation">0dp</dimen>
+    <dimen name="word_profile_image_size">64dp</dimen>
+    <!-- Profile View -->
+    <dimen name="profile_radius">15dp</dimen>
+    <dimen name="profile_image_size">125dp</dimen>
+    <dimen name="profile_text_view_width">0dp</dimen>
+    <dimen name="profile_divider_height">1dp</dimen>
+    <dimen name="profile_space_vertical_xs">8dp</dimen>
+    <dimen name="profile_space_vertical_s">24dp</dimen>
+    <dimen name="profile_space_vertical">32dp</dimen>
+    <dimen name="profile_space_vertical_xl">48dp</dimen>
+    <dimen name="profile_space_horizontal">16dp</dimen>
+    <dimen name="profile_space_horizontal_xl">24dp</dimen>
+    <dimen name="profile_text_size">20sp</dimen>
+    <!-- Credits View -->
+    <dimen name="credits_text_view_width">0dp</dimen>
+    <dimen name="credits_space_horizontal_s">16dp</dimen>
+    <dimen name="credits_space_horizontal">16dp</dimen>
+    <dimen name="credits_space_vertical_s">8dp</dimen>
+    <dimen name="credits_space_vertical">16dp</dimen>
+    <dimen name="credits_space_vertical_xl">24dp</dimen>
+    <dimen name="credits_text_size_xs">14sp</dimen>
+    <dimen name="credits_text_size_s">18sp</dimen>
+    <dimen name="credits_text_size">20sp</dimen>
+    <dimen name="credits_text_size_xl">30sp</dimen>
+    <dimen name="credits_umg_logo_size">100dp</dimen>
+
+</resources>

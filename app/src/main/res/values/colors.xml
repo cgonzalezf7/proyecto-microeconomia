@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#0d47a1</color>
+    <color name="primaryLightColor">#5472d3</color>
+    <color name="primaryLightColorTransparent">#00FFFFFF</color>
+    <color name="primaryDarkColor">#002171</color>
+    <color name="secondaryColor">#ffeb3b</color>
+    <color name="secondaryLightColor">#ffff72</color>
+    <color name="secondaryDarkColor">#c8b900</color>
+    <color name="surfaceColor">#4797AB</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="errorColor">#CF6679</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="primaryTextColorDark">#4DD0E1</color>
+    <color name="secondaryTextColor">#000000</color>
+    <color name="secondaryTextColorDark">#37474f</color>
+    <color name="onSurfaceColor">#12000000</color>
+    <color name="onBackgroundColor">#DD4B39</color>
+    <color name="dialogBackgroundColor">#eeeeee</color>
+</resources>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.WordActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/wordAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/wordToolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textViewWord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/word_space_vertical_3xl"
+        android:layout_marginStart="@dimen/word_space_horizontal"
+        android:layout_marginEnd="@dimen/word_space_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:textAlignment="center"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="@dimen/word_text_size_xl"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/wordAppBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textViewDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/word_space_vertical_xl"
+        android:layout_marginStart="@dimen/word_space_horizontal"
+        android:layout_marginEnd="@dimen/word_space_horizontal"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/word_text_size"
+        app:layout_constraintTop_toBottomOf="@+id/textViewWord"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textViewAuthor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/word_space_vertical_xl"
+        android:layout_marginStart="@dimen/word_space_horizontal"
+        android:layout_marginEnd="@dimen/word_space_horizontal"
+        android:layout_marginBottom="@dimen/word_space_vertical"
+        android:text="@string/word_author"
+        android:textSize="@dimen/word_text_size"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDescription"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewProfile"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/word_space_vertical"
+        android:layout_marginStart="@dimen/word_space_horizontal"
+        android:layout_marginEnd="@dimen/word_space_horizontal"
+        android:layout_marginBottom="@dimen/word_space_vertical_xl"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textViewAuthorEmail"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/textViewAuthorEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/word_space_vertical_xl"
+        android:layout_marginStart="@dimen/word_space_horizontal"
+        android:layout_marginEnd="@dimen/word_space_horizontal"
+        android:layout_marginBottom="@dimen/word_space_vertical_xxx"
+        android:fontFamily="sans-serif-light"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

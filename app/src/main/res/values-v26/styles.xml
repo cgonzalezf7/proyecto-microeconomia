@@ -1,0 +1,33 @@
+<resources>
+    <!-- Base Application Theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Colors -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDarkColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+        <item name="android:statusBarColor">@color/primaryDarkColor</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <!-- Text Input -->
+        <item name="textInputStyle">@style/Widget.App.TextInputLayout</item>
+        <item name="android:autofilledHighlight">@color/primaryLightColorTransparent</item>
+        <item name="colorControlNormal">@color/primaryTextColorDark</item>
+        <!-- Toolbar -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- Sign Up Theme -->
+    <style name="NoPreview" parent="AppTheme">
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+    <!-- Text Input Theme -->
+    <style name="Widget.App.TextInputLayout" parent="Widget.Design.TextInputLayout"/>
+    <!-- Credits Dialog Theme -->
+    <style name="Theme.App.Dialog.FullScreen" parent="Theme.MaterialComponents.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">@color/primaryLightColorTransparent</item>
+    </style>
+
+</resources>

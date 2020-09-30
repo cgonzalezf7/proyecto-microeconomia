@@ -1,0 +1,87 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Dictionary</string>
+    <!-- Login View -->
+    <string name="login_email_domain">miumg.edu.gt</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_confirm_password">Confirm Password</string>
+    <string name="login_forgot_password">I have forgotten my password</string>
+    <string name="login_sign_in">Sign In</string>
+    <string name="login_sign_up">Sign Up</string>
+    <string name="login_create_account">Create a new account</string>
+    <string name="login_reset_password">Reset my Password</string>
+    <string name="login_go_login">Cancel</string>
+    <string name="login_incorrect_data">Please make sure all the data is correct.</string>
+    <string name="login_invalid_email">Email is not valid</string>
+    <string name="login_invalid_password">The password should contain 8 characters at least</string>
+    <string name="login_invalid_confirm_password">Confirm Password does not match with Password</string>
+    <string name="login_failed_authentication">Authentication Failed.</string>
+    <string name="login_failed_google_sign_in">Google sign in failed.</string>
+    <string name="login_unexpected_error">An unexpected error occurred, please try again.</string>
+    <string name="login_confirm_email">User must confirm email first.</string>
+    <string name="login_sent_confirm_email">An email has been sent to you. Please confirm before sign in.</string>
+    <string name="login_sent_reset_password">An email has been sent to reset your password.</string>
+    <!-- Logout Dialog -->
+    <string name="logout_dialog_title">Log Out?</string>
+    <string name="logout_dialog_message">Your current session will be closed and you will be redirected to the log in page.</string>
+    <string name="logout_dialog_positive">Log Out</string>
+    <string name="logout_dialog_negative">Cancel</string>
+    <!-- Options Menu -->
+    <string name="options_menu_search">Search</string>
+    <string name="options_menu_log_out">Log Out</string>
+    <string name="options_menu_credits">Credits</string>
+    <!-- Tab Layout -->
+    <string name="tab_item_profile">Profile</string>
+    <string name="tab_item_words">Words</string>
+    <!-- Progress Bar -->
+    <string name="progress_bar">Loading</string>
+    <!-- Add Word View -->
+    <string name="word_save_word">Save</string>
+    <string name="word_word_capital">Word</string>
+    <string name="word_description_capital">Description</string>
+    <string name="word_dialog_title">Discard Word?</string>
+    <string name="word_dialog_message">Your word will not be saved.</string>
+    <string name="word_dialog_positive">Discard</string>
+    <string name="word_dialog_negative">Cancel</string>
+    <string name="word_delete_dialog_title">Delete Word?</string>
+    <string name="word_delete_dialog_message">Your word will be permanently deleted.</string>
+    <string name="word_delete_dialog_positive">Delete</string>
+    <string name="word_delete_dialog_negative">Cancel</string>
+    <string name="word_empty_data">Please add a word and its description.</string>
+    <string name="word_add_word">Word added.</string>
+    <string name="word_error_add_word">Error, please try again.</string>
+    <string name="word_space" translatable="false">.\u0020</string>
+    <string name="word_collection" translatable="false">dictionary</string>
+    <string name="word_email" translatable="false">email</string>
+    <string name="word_profile_image_url" translatable="false">profileImageURL</string>
+    <string name="word_word" translatable="false">word</string>
+    <string name="word_description" translatable="false">description</string>
+    <string name="word_exception">Exception!</string>
+    <string name="word_edit_word">Edit</string>
+    <string name="word_delete_word">Delete</string>
+    <string name="word_author">Author:</string>
+    <string name="word_delete_success">Word deleted.</string>
+    <string name="word_delete_failure">Error deleting word.</string>
+    <string name="word_duplicate_word">The word already exists.</string>
+    <string name="word_cant_delete_word">You can not delete the current word because you are not the author.</string>
+    <!-- Profile View -->
+    <string name="profile_total_words">Total Words</string>
+    <string name="profile_name_not_available">Name is not available</string>
+    <string name="profile_exception">Exception!</string>
+    <string name="profile_total_words_loading">Loading…</string>
+    <!-- Credits View -->
+    <string name="credits_title_credits">Credits</string>
+    <string name="credits_umg" translatable="false">Universidad Mariano Gálvez de Guatemala</string>
+    <string name="credits_course">Microeconomics</string>
+    <string name="credits_grad" translatable="false">Lic. Eduardo Arévalo</string>
+    <string name="credits_title">Microeconomics Dictionary</string>
+    <string name="credits_members">Members:</string>
+    <string name="credits_member1" translatable="false">Cristian José González Flores.</string>
+    <string name="credits_member1_id" translatable="false">No. de Carné: 1990–19–4881.</string>
+    <string name="credits_member2" translatable="false">Yandy José Lima Pérez.</string>
+    <string name="credits_member2_id" translatable="false">No. de Carné: 1990–19–4906.</string>
+    <string name="credits_icons_credits">Icons made by Freepik from www.flaticon.com</string>
+    <string name="login_logo_content_description">App Logo</string>
+
+</resources>
